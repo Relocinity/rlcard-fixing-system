@@ -7,8 +7,8 @@ from rlcard.games.limitholdem import PlayerStatus
 
 class Action(Enum):
     FOLD = 0
-    CHECK = 1
-    #CALL = 2
+    CHECK_CALL = 1
+    CHECK = 2
     # RAISE_3BB = 3
     RAISE_HALF_POT = 2
     RAISE_POT = 3
